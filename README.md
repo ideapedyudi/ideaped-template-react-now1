@@ -1,2 +1,1 @@
-# khrsearch
-project khr
+# TEMPLATE REACT NOW versio 1
