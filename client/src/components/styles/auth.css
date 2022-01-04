@@ -1,0 +1,149 @@
+.Bprimary {
+      /*background-color: #ff774d !important;*/
+      height: 70px !important;
+      box-shadow: 0 1px 5px rgb(0 0 0 / 0.2);
+}
+
+.imgDashbaord {
+      width: 155% !important;
+      margin-left: -130px;
+}
+
+.tNav {
+      font-size: 25px !important;
+      font-weight: bold;
+      color: #ff774d !important;
+}
+
+.tLogin {
+      text-align: center !important;
+      font-weight: bold;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      color: #ff774d;
+}
+
+.sFormLogin {
+      margin-top: 30% !important;
+      border-color: #d5deff !important;
+      margin-left: 10%;
+}
+
+.sButtonPrimery {
+      background-color: #ff774d !important;
+      border: none !important;
+}
+
+.sButtonPrimery:focus {
+      border-color: #ff774d !important;
+      outline: none !important;
+      box-shadow: none !important;
+}
+
+input:focus {
+      outline: none !important;
+      box-shadow: none !important;
+}
+
+.tCopy {
+      margin-top: -35px !important;
+      cursor: pointer;
+      position: absolute;
+}
+
+.inputAuth:focus {
+      border-color: #ff774d !important;
+}
+
+.inputAuth:hover {
+      border-color: #ff774d !important;
+}
+
+.ant-modal-footer {
+      display: none !important;
+}
+
+.tInfo {
+      text-align: center !important;
+}
+
+.lInput {
+      border-radius: 2px !important;
+      z-index: 99;
+}
+
+.form__label {
+      position: absolute;
+      margin-top: -30px !important;
+      margin-left: 10px;
+      background-color: white;
+      color: rgb(123, 123, 123);
+      padding-left: 3px;
+      padding-right: 3px;
+      border-radius: 20px;
+      cursor: text;
+}
+
+.lInput:focus + .form__label {
+      border-color: #ff774d !important;
+      color: #6b6e74 !important;
+      margin-top: -50px !important;
+      transition: all 0.2s;
+      cursor: text;
+      z-index: 9999;
+}
+
+.lInput:focus {
+      border-color: #ff774d !important;
+}
+
+.lInput:not(:placeholder-shown).lInput:not(:focus)+ .form__label {
+      border-color: #ff774d !important;
+      color: #6b6e74 !important;
+      margin-top: -50px !important;
+      transition: all 0.2s;
+}
+
+
+
+.cardlogin {
+      width: 40%;
+      margin: 0% auto;
+}
+
+.bglogin {
+      background-image: url(../asset/b4.jpg);
+      background-size: cover !important;
+      width: 100%;
+      height: 100% !important;
+      position: absolute !important;
+}
+
+
+
+@media only screen and (max-width: 592px) {
+      .cardlogin {
+            width: 60%;
+            margin: 0% auto;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .imgDashbaord {
+    display: none !important;
+  }
+
+  .tCopy {
+      display: none !important;
+  }
+}

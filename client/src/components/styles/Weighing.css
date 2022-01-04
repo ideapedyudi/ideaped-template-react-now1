@@ -1,0 +1,19 @@
+.cardsearch {
+	width: 95% !important;
+	margin: 50px auto !important;
+}
+
+.selectstyle {
+    width: 100% !important;
+    border-color: #cccc !important;
+    height: 35px !important;
+    margin-top: -4px !important;
+}
+
+.selectstyle:focus {
+    border-color: blue !important;
+}
+
+.selectstyle::after {
+    border-color: blue !important;
+}

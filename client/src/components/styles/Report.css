@@ -1,0 +1,29 @@
+.cardReport {
+	margin: 0px auto !important;
+	width: 500px;
+	height: 300px;
+}
+
+.btnPrint {
+	margin-top: 155px;
+	height: 30px !important;
+}
+
+.bbot {
+	margin-top: -20px !important;
+}
+
+.tableWeiging {
+	font-size: 10px !important;
+	/*width: 500px !important;*/
+}
+
+.printText {
+	font-size: 11px;
+}
+
+.imgPrints {
+	width: 45% !important;
+	margin-left: 27%;
+	margin-top: 40px;
+}

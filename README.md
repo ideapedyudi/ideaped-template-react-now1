@@ -1,2 +1,2 @@
-# ideaped-template-react-now1
-template react ant design
+# khrsearch
+project khr

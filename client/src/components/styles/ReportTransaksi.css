@@ -1,0 +1,50 @@
+.cardright {
+    width: 97% !important;
+    height: 500px !important;
+    overflow: auto !important;
+}
+
+
+.cardsearch {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    /* height: 540px !important; */
+}
+
+.td {
+    font-size: 10px !important;
+}
+
+.printText {
+    font-size: 12px !important;
+}
+
+.ant-dropdown {
+    /* width: 100px !important; */
+    z-index: 999999999 !important;
+}
+
+.cargoonfficer {
+    width: 300px;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.RA {
+    position: absolute;
+    margin-top: -115px !important;
+    margin-left: 550px !important;
+}
+
+@page  
+{ 
+    size: auto;   /* auto is the initial value */ 
+
+    /* this affects the margin in the printer settings */ 
+    /* margin: 10mm 5mm 5mm 5mm; */
+	margin-top: 8mm !important;
+	margin-bottom: 5mm !important;
+	margin-left: 10mm !important;
+	margin-right: 10mm !important;
+    font-size: 6px !important;
+} 
